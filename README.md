@@ -1,5 +1,6 @@
 # WiringNP
 This is a GPIO access library for NanoPi. It is based on the WiringOP for Orange PI which is based on original WiringPi for Raspberry Pi.
+--fix NanoPi Neo Support
 
 Currently supported boards:  
 NanoPi Neo  
@@ -19,7 +20,7 @@ NanoPi K1 Plus
 ## Install WiringNP 
 Log into your nano board via SSH, open a terminal and install the WiringNP library by running the following commands:
 ```
-git clone https://github.com/friendlyarm/WiringNP
+git clone https://github.com/xky/WiringNP
 cd WiringNP/
 chmod 755 build
 ./build

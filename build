@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#copy system information file to os path
+cp ./neo_info /etc/sys_info
+
 # check if sudo is required and save the result as ${PFX}:
 [[ ${EUID} -ne 0 ]] && PFX='sudo ' || PFX=''
 
