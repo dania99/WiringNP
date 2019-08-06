@@ -20,7 +20,7 @@ NanoPi K1 Plus
 ## Install WiringNP 
 Log into your nano board via SSH, open a terminal and install the WiringNP library by running the following commands:
 ```
-git clone https://github.com/xky/WiringNP
+git clone https://github.com/xksoft/WiringNP
 cd WiringNP/
 chmod 755 build
 ./build
